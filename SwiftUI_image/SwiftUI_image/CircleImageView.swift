@@ -26,7 +26,7 @@ struct CircleImageView : View {
             )
             .overlay(
                 Circle()
-                    .stroke(Color.green, lineWidth: 10)
+                    .stroke(Color.red, lineWidth: 10)
                     .padding()
             )
             .overlay(
