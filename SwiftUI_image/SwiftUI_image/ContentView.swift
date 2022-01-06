@@ -9,13 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                CircleImageView()
+                
+                HStack {
+                    NavigationLink(
+                        destination: MyWebView(urlToLoad: "https://www.naver.com")
+                        ){
+                        Text("네이버")
+                    }
+                }
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 12 mini")
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD8D40AA2785AF9600DAA6DC /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D40A92785AF9600DAA6DC /* MyWebView.swift */; };
 		BDA930D8278365BF00A1B1D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA930D7278365BF00A1B1D3 /* AppDelegate.swift */; };
 		BDA930DA278365BF00A1B1D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA930D9278365BF00A1B1D3 /* SceneDelegate.swift */; };
 		BDA930DC278365BF00A1B1D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA930DB278365BF00A1B1D3 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD8D40A92785AF9600DAA6DC /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		BDA930D4278365BF00A1B1D3 /* SwiftUI_image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA930D7278365BF00A1B1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA930D9278365BF00A1B1D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BDA930E5278365C100A1B1D3 /* Info.plist */,
 				BDA930DF278365C100A1B1D3 /* Preview Content */,
 				BDE96C882785A8AE00696A99 /* CircleImageView.swift */,
+				BD8D40A92785AF9600DAA6DC /* MyWebView.swift */,
 			);
 			path = SwiftUI_image;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				BDE96C892785A8AE00696A99 /* CircleImageView.swift in Sources */,
 				BDA930D8278365BF00A1B1D3 /* AppDelegate.swift in Sources */,
+				BD8D40AA2785AF9600DAA6DC /* MyWebView.swift in Sources */,
 				BDA930DA278365BF00A1B1D3 /* SceneDelegate.swift in Sources */,
 				BDA930DC278365BF00A1B1D3 /* ContentView.swift in Sources */,
 			);
